@@ -1,8 +1,6 @@
-def is_palindrome(s):
-    s = s.replace(" ", "").lower()
-    return s == s[::-1]
-user_input = input("Enter a string: ")
-if is_palindrome(user_input):
-    print(f'"{user_input}" is a palindrome.')
+a = input("enter the number:")
+b = a[::-1]
+if a == b:
+    print("palindrome")
 else:
-    print(f'"{user_input}" is not a palindrome.')
+    print("Not palindrome")
